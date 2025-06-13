@@ -5,7 +5,7 @@ This repository contains the code to perform cross-validated sparse Canonical Co
 The pipeline includes:
 1) confound regression and data standardization, performed independently within training and test sets to avoid data leakage;
 3) a grid search to identify optimal regularization parameters for sparsity control in the sCCA model;
-4) model evaluation through out-of-sample canonical correlation and permutation testing.
+4) model evaluation through out-of-sample canonical correlation, permutation testing and bootstrap resampling.
 
 The cross-validation structure consists of:
 1) an outer loop (50 iterations in the present example) performing train/test splits to evaluate model performance and reduce overfitting;
