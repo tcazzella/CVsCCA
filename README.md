@@ -21,7 +21,7 @@ This pipeline is designed for flexible application and easy customization to pai
 
 2) the **"2_produce_tablesummary"** script organizes the performance of the model (for each canonical pair across each outer resampling) in an Excel file. It takes as input the .txt file created by "1_multiple holdout_sCCA".
 
-3) the **"3_organize_canonical_weights"** script organizes the canonical weights (for one selected canonical pair across each outer resampling) in a excel file. It takes as input the .xlsx file created by "1_multiple holdout_sCCA".
+3) the **"3_organize_canonical_weights"** script organizes the canonical weights (for one selected canonical pair across outer resamplings) in a excel file. It takes as input the .xlsx file created by "1_multiple holdout_sCCA".
 
 4) the **"4_count_parameters_frequency"** script returns the best pair of regularization parameters (i.e., the most frequently selected across the outer resamplings). It takes as input the .txt file created by "1_multiple holdout_sCCA".
 
