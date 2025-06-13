@@ -1,8 +1,6 @@
 **1. PROJECT OVERVIEW**
    
-This repository contains the code to perform cross-validated sparse Canonical Correlation Analysis (sCCA) on 2 datasets. The cross-validation design employed is a 2-layer multiple holdout cross-validation, with the aim of reducing sampling biases and increase generalizability. 
-
-The code was developed to investigate multivariate associations between 2 datasets (e.g., biological and behavioral features), while minimizing the risk of data leakage.
+This repository contains the code to perform cross-validated sparse Canonical Correlation Analysis (sCCA) on 2 datasets (e.g., biological and behavioral features). The cross-validation design employed is a 2-layer multiple holdout cross-validation, with the aim of reducing sampling biases and increase generalizability. 
 
 The pipeline includes:
 1) confound regression and data standardization, performed independently within training and test sets to avoid data leakage;
